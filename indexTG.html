@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Hamilton Trivia Game</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- Added a link to my styles-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Added link to the jQuery Library -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+</head>
+<body>
+
+
+<!-- Make a title-->
+<h1>Alexander Hamilton Trivia Game!</h1>
+<div class = "question1"> 
+
+</div>
+
+
+
+<!-- Time remaining goes here, timer set to 120 seconds -->
+
+  
+  <!-- name attribute to identify all the buttons in a group.
+       All radio buttons in a group have the same name. 
+       HTML uses the name attribute to figure out which group a radio button is in, 
+       and to ensure that only one button in a group is selected.
+       The id of each radio button is unique. 
+       Each id on a Web page must be unique, and the id elements of each radio button follow those rules.-->
+    <!-- question #1 and radio buttons-->
+    <form>
+      <fieldset>
+        <p>
+          <legend>Say something here yo!</legend>
+       
+          <label>What department of the Federal Government was Hamilton in charge of?</label><br>
+          <input type = "radio"
+                 name = "radSize"               
+                 id = "sizeSmall"
+                 value = "true"/>
+          <label for = "sizeSmall">Treasury Department</label>
+          <input type = "radio"
+                 name = "radSize"
+                 id = "sizeMed"
+                 value = "false"/>
+          <label for = "sizeMed">State Department</label>
+          <input type = "radio"
+                 name = "radSize"
+                 id = "sizeLarge"
+                 value = "false" />
+          <label for = "sizeLarge">Justice Department</label>
+          <input type = "radio"
+                 name = "radSize"
+                 id = "sizeXL"
+                 value = "false" />
+          <label for = "sizeXL">Education Department</label>
+        </p>       
+      </fieldset>     
+    </form>
+  <!-- question 2 and radio buttons-->
+  <!-- q 3 and radio buttons-->
+  <!-- q 4 and radio buttons-->
+  <!-- q 5 and radio buttons-->
+
+<!-- Done button to submit answers-->
+<!--After you hit done or timer runs out a new page displays that shows correct, incorrect and unanswered questions-->
+  
+
+
+
+   
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
