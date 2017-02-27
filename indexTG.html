@@ -16,62 +16,108 @@
 <body>
 
 
-<!-- Make a title-->
-<h1>Alexander Hamilton Trivia Game!</h1>
-<div class = "question1"> 
+  <!-- Make a title-->
+  <div class="row">
+      <div class="col-md-12" id="header">
+        <h1>Alexander Hamilton Trivia Game!</h1>
+      </div>
+  </div>
 
-</div>
+
+
+
 
 
 
 <!-- Time remaining goes here, timer set to 120 seconds -->
 
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8" id="body-panel">
+      <div class="panel panel-default">
+        <div class="panel-body" id="question-container">
+            <!-- name attribute to identify all the buttons in a group. All radio buttons in a group have the same name. 
+               HTML uses the name attribute to figure out which group a radio button is in, 
+               and to ensure that only one button in a group is selected. The id of each radio button is unique. 
+               Each id on a Web page must be unique, and the id elements of each radio button follow those rules.-->
+            <!-- question #1 and radio buttons-->
+          <form>
+            <fieldset>
+              <p>
+                <!-- <legend>Say something here yo!</legend> -->
+                <div class = "questionOne" id = "q1" >
+                  <label>What department of the Federal Government was Hamilton in charge of?</label><br>
+                  <input type = "radio"
+                         name = "radio1"               
+                         id = "true"
+                         value = "true"/>
+                  <label for = "sizeSmall">Treasury Department</label>
+                  <input type = "radio"
+                         name = "radio1"
+                         id = "sizeMed"
+                         value = "false"/>
+                  <label for = "sizeMed">State Department</label>
+                  <input type = "radio"
+                         name = "radio1"
+                         id = "sizeLarge"
+                         value = "false" />
+                  <label for = "sizeLarge">Justice Department</label>
+                  <input type = "radio"
+                         name = "radio1"
+                         id = "sizeXL"
+                         value = "false" />
+                  <label for = "sizeXL">Education Department</label>
+                </div>
+              </p>       
+            </fieldset>     
+          </form>
+        <!-- question 2 and radio buttons-->
+          <form>
+              <fieldset>
+                <p>
+                  <!-- <legend>Say something here yo!</legend> -->
+                  <!-- <div class = "questionOne" id = "q1" >
+                    <label>What department of the Federal Government was Hamilton in charge of?</label><br>
+                    <input type = "radio"
+                           name = "radio1"               
+                           id = "true"
+                           value = "true"/>
+                    <label for = "sizeSmall">Treasury Department</label>
+                    <input type = "radio"
+                           name = "radio1"
+                           id = "sizeMed"
+                           value = "false"/>
+                    <label for = "sizeMed">State Department</label>
+                    <input type = "radio"
+                           name = "radio1"
+                           id = "sizeLarge"
+                           value = "false" />
+                    <label for = "sizeLarge">Justice Department</label>
+                    <input type = "radio"
+                           name = "radio1"
+                           id = "sizeXL"
+                           value = "false" />
+                    <label for = "sizeXL">Education Department</label> -->
+                  </div>
+                </p>       
+              </fieldset>     
+            </form>
+        <!-- q 3 and radio buttons-->
+        <!-- q 4 and radio buttons-->
+        <!-- q 5 and radio buttons-->
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
   
-  <!-- name attribute to identify all the buttons in a group.
-       All radio buttons in a group have the same name. 
-       HTML uses the name attribute to figure out which group a radio button is in, 
-       and to ensure that only one button in a group is selected.
-       The id of each radio button is unique. 
-       Each id on a Web page must be unique, and the id elements of each radio button follow those rules.-->
-    <!-- question #1 and radio buttons-->
-    <form>
-      <fieldset>
-        <p>
-          <legend>Say something here yo!</legend>
-       
-          <label>What department of the Federal Government was Hamilton in charge of?</label><br>
-          <input type = "radio"
-                 name = "radSize"               
-                 id = "sizeSmall"
-                 value = "true"/>
-          <label for = "sizeSmall">Treasury Department</label>
-          <input type = "radio"
-                 name = "radSize"
-                 id = "sizeMed"
-                 value = "false"/>
-          <label for = "sizeMed">State Department</label>
-          <input type = "radio"
-                 name = "radSize"
-                 id = "sizeLarge"
-                 value = "false" />
-          <label for = "sizeLarge">Justice Department</label>
-          <input type = "radio"
-                 name = "radSize"
-                 id = "sizeXL"
-                 value = "false" />
-          <label for = "sizeXL">Education Department</label>
-        </p>       
-      </fieldset>     
-    </form>
-  <!-- question 2 and radio buttons-->
-  <!-- q 3 and radio buttons-->
-  <!-- q 4 and radio buttons-->
-  <!-- q 5 and radio buttons-->
 
-<!-- Done button to submit answers-->
-<!--After you hit done or timer runs out a new page displays that shows correct, incorrect and unanswered questions-->
+
   
-
+  <!-- Done button to submit answers-->
+  <!--After you hit done or timer runs out a new page displays that shows correct, incorrect and unanswered questions-->
+  
 
 
    
