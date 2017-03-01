@@ -15,6 +15,8 @@
 </head>
 <body>
 
+  <!-- start button to begin game-->
+
 
   <!-- Make a title-->
   <div class="row">
@@ -37,87 +39,42 @@
       <div class="panel panel-default">
         <div class="panel-body" id="question-container">
             <!-- name attribute to identify all the buttons in a group. All radio buttons in a group have the same name. 
-               HTML uses the name attribute to figure out which group a radio button is in, 
-               and to ensure that only one button in a group is selected. The id of each radio button is unique. 
-               Each id on a Web page must be unique, and the id elements of each radio button follow those rules.-->
+               HTML uses the name attribute to figure out which group a .-->
             <!-- question #1 and radio buttons-->
-          <form>
-            <fieldset>
-              <p>
+          
+              
                 <!-- <legend>Say something here yo!</legend> -->
-                <div class = "questionOne" id = "q1" >
-                  <label>What department of the Federal Government was Hamilton in charge of?</label><br>
-                  <input type = "radio"
-                         name = "radio1"               
-                         id = "true"
-                         value = "true"/>
-                  <label for = "sizeSmall">Treasury Department</label>
-                  <input type = "radio"
-                         name = "radio1"
-                         id = "sizeMed"
-                         value = "false"/>
-                  <label for = "sizeMed">State Department</label>
-                  <input type = "radio"
-                         name = "radio1"
-                         id = "sizeLarge"
-                         value = "false" />
-                  <label for = "sizeLarge">Justice Department</label>
-                  <input type = "radio"
-                         name = "radio1"
-                         id = "sizeXL"
-                         value = "false" />
-                  <label for = "sizeXL">Education Department</label>
+                <div class = "row" id="quiz" >
+                 
+
+
+
+
+
+                  <!--  -->
                 </div>
-              </p>       
-            </fieldset>     
-          </form>
-        <!-- question 2 and radio buttons-->
-          <form>
-              <fieldset>
-                <p>
-                  <!-- <legend>Say something here yo!</legend> -->
-                  <!-- <div class = "questionOne" id = "q1" >
-                    <label>What department of the Federal Government was Hamilton in charge of?</label><br>
-                    <input type = "radio"
-                           name = "radio1"               
-                           id = "true"
-                           value = "true"/>
-                    <label for = "sizeSmall">Treasury Department</label>
-                    <input type = "radio"
-                           name = "radio1"
-                           id = "sizeMed"
-                           value = "false"/>
-                    <label for = "sizeMed">State Department</label>
-                    <input type = "radio"
-                           name = "radio1"
-                           id = "sizeLarge"
-                           value = "false" />
-                    <label for = "sizeLarge">Justice Department</label>
-                    <input type = "radio"
-                           name = "radio1"
-                           id = "sizeXL"
-                           value = "false" />
-                    <label for = "sizeXL">Education Department</label> -->
-                  </div>
-                </p>       
-              </fieldset>     
-            </form>
+                   
+          
+        <!-- question 2 and radio buttons--> 
         <!-- q 3 and radio buttons-->
         <!-- q 4 and radio buttons-->
-        <!-- q 5 and radio buttons-->
-          
         </div>
       </div>
     </div>
-    <div class="col-md-1"></div>
   </div>
   
 
 
   
-  <!-- Done button to submit answers-->
+  <!-- submit button to submit answers-->
   <!--After you hit done or timer runs out a new page displays that shows correct, incorrect and unanswered questions-->
-  
+  <div class = "row">
+    
+
+      <button id = "submit">Submit</button>
+
+    
+  </div>
 
 
    
