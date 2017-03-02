@@ -1,5 +1,6 @@
 body{
 	background-image: url("../images/hamiltonwallpaper.jpg");
+	
 }
 
 p{
@@ -12,3 +13,30 @@ p{
       padding: 15px;
 }
 
+/*input[type = "radio"]{
+	margin-right: 0;
+}*/
+
+form{
+	margin: 15px;
+	text-orientation: center;
+
+}
+
+#submitButton{
+	margin-left: 400px;
+	color: red;
+}
+
+#header{
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 50px;
+	color: #b7903c;
+	text-align: center;
+}
+
+#questionContainer{
+	width: 500px;
+	color: #b7903c
+}

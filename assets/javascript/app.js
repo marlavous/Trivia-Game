@@ -33,6 +33,8 @@ $( document ).ready(function() {
 
 		]
 
+
+		//create radio buttons with answers attached
 		function radioButtons(name, value, text) {
 			var form = document.createElement("form");
 			radio = document.createElement("input");
@@ -47,10 +49,23 @@ $( document ).ready(function() {
 			radioTwo.type = "radio";
 			radioTwo.name = name;
 			radioTwo.value = value;
-
 			form.appendChild(radioTwo);
-
 			form.appendChild(document.createTextNode(text[1]));
+
+			var radioThree = document.createElement("input");
+			radioThree.type = "radio";
+			radioThree.name = name;
+			radioThree.value = value;
+			form.appendChild(radioThree);
+			form.appendChild(document.createTextNode(text[2]));
+
+			var radioFour = document.createElement("input");
+			radioFour.type = "radio";
+			radioFour.name = name;
+			radioFour.value = value;
+			form.appendChild(radioFour);
+			form.appendChild(document.createTextNode(text[3]));
+
 			return form;
 		}
 
@@ -69,7 +84,7 @@ $( document ).ready(function() {
 
 
 		//create a submit button
-		$("#submit").on("click", function(){
+		$("#submitButton").on("click", function(){
 
 			var isRadio = $("input[type = 'radio']");
 			console.log(isRadio);
@@ -129,6 +144,8 @@ $( document ).ready(function() {
 // 		console.log("wrong is here");
 // 	    }
 // 	});
+
+		var loop = function(){}
 
 
 
