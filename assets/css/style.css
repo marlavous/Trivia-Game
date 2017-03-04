@@ -1,21 +1,7 @@
 body{
 	background-image: url("../images/hamiltonwallpaper.jpg");
-	
-}
 
-p{
-	padding: 10px;
 }
-
-.image {
-      width: 200px;
-      height: 200px;
-      padding: 15px;
-}
-
-/*input[type = "radio"]{
-	margin-right: 0;
-}*/
 
 form{
 	margin: 15px;
@@ -23,20 +9,84 @@ form{
 
 }
 
-#submitButton{
-	margin-left: 400px;
-	color: red;
+#startButton{
+	color: #ba2c2b;
+	background-color: #c79639; 
 }
 
-#header{
+#submitButton{
+	color: #ba2c2b;
+	background-color: #c79639;
+	font-family: 'Dancing Script', cursive;
+	font-size: 33px,
+	
+
+}
+
+#header h1{
 	margin-right: 100px;
 	margin-left: 100px;
 	margin-top: 50px;
-	color: #b7903c;
+	color: #c79639;
 	text-align: center;
+	background-color: #ddd;
+	font-family: 'Dancing Script', cursive;
+	font-size: 52px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #ba2c2b;
+
 }
 
+
 #questionContainer{
-	width: 500px;
 	color: #b7903c
+	width: 400px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #ba2c2b;
 }
+
+#radio{
+	margin: 25px;
+}
+
+#begin{
+	margin: 0 100px 0 100px;
+	color: #c79639;
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+}
+
+#body-panel{
+	margin: 0 100px 0 100px
+
+}
+
+#finalDiv{
+	color: black;
+	font-size: 152px;
+	font-family: 'Dancing Script', cursive;
+	/*background-image: url("../images/hamilton-1.jpg");*/
+	/*height:500px;*/
+
+}
+
+.h5, h5{
+	font-size: 50px;
+}
+
+#quiz{
+	background-color: #ddd;
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
