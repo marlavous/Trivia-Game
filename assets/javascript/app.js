@@ -20,7 +20,7 @@
   
 
 		// Sound:
-		//new Audio('./assets/audio/My-Shot.mp3').play();
+		new Audio('./assets/audio/My-Shot.mp3').play();
 
   		//global variables
 		var correctAnswers = 0;
