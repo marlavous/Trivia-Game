@@ -121,6 +121,7 @@
 		$("#quiz").hide();
 		$("#begin").hide();
 		$("#submitButton").hide();
+		$("#submit").hide();
 		$("#startButton").hide();
 		$(".panel-body").hide();
 		$("finalDiv").show();
@@ -128,7 +129,8 @@
 
 		}
 
-		//create radio buttons with answers attached. they need the same name so only one can be checked at a time
+		//create radio buttons with answers attached. they need the same name and type so only one can be checked at a time
+		//they each have their own value to be used to compare correct answer to user answer
 		function radioButtons(name, text) {
 
 			var form = document.createElement("form");
@@ -212,6 +214,9 @@
 			 		userAnswer.push(int);
 			 	}
 
+			console.log("right  " + correctAnswers);
+			console.log("wrong  " + wrongAnswers);
+
 		
 			 };
 
@@ -221,6 +226,7 @@
 		$("#begin").hide();
 		$("#timer").hide();
 		$("#submitButton").hide();
+		$("#submit").hide();
 		$("#startButton").toggle(true);
 		$(".panel-body").show();
 		$("finalDiv").toggle(true);
