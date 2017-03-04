@@ -18,7 +18,7 @@ form{
 	color: #ba2c2b;
 	background-color: #c79639;
 	font-family: 'Dancing Script', cursive;
-	font-size: 33px,
+	font-size: 53px,
 	
 
 }
@@ -63,12 +63,14 @@ form{
 
 }
 
-#finalDiv{
-	color: black;
-	font-size: 152px;
+#finalDiv h4{
+	color: white;
+	font-size: 25px;
 	font-family: 'Dancing Script', cursive;
-	/*background-image: url("../images/hamilton-1.jpg");*/
-	/*height:500px;*/
+	background-image: url("../images/hamilton-1.jpg");
+	padding: 0;
+	height: 420px;
+	width: 640px;
 
 }
 
@@ -79,6 +81,11 @@ form{
 #quiz{
 	background-color: #ddd;
 	margin-top: 0;
+}
+
+#submit{
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 
